@@ -1,0 +1,128 @@
+.text-color {
+    color: white;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.centered{
+    position:absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: white;
+    z-index: 2;
+    font-weight: 600;
+}
+.container{
+    font-size: 40px;
+}
+
+.ulist {
+    list-style: none;
+    display: flex;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-project {
+    color: black;
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.tag-box {
+    background-color: black;
+    max-width: 55%;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+.name-box{
+    background-color: white;
+    text-align: left;
+    padding: 7px;
+}
+.text-col{
+    color: black;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text-lorem {
+    color: black;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300; 
+}
+
+.design-box {
+    padding: 7px;
+}
+
+.text-design {
+    color: grey;
+}
+
+.contact-div {
+    background-color: #d7d4d4;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.contact-div:hover {
+    background-color: grey;
+}
+.text-fix{
+    padding: 10px;
+
+}
+.text-perfect{
+    padding: 10px;
+}
+.form-control{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    
+    padding: 8px;
+}
+.send-message{
+    background-color:black;
+    padding: 6px;
+    text-align: center;
+    cursor: pointer;
+    color: white; 
+}
+.send-message:hover{
+    background-color:grey;
+}
+.footer {
+    background-color: black;
+}
+.w3 {
+    text-decoration: underline;
+    color: white;
+}
+.w3:hover {
+    color: green;
+}
+
+.shader {
+    max-width: 5%;
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: saturate(47%) blur(0px);
+    height: 45px;
+    position: relative;
+    bottom: 49%;
+    left: 40%;
+}

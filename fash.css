@@ -35,7 +35,7 @@
 }
 .image-text {
     position: relative;
-    bottom: 35%;
+    bottom: 24%;
     z-index: 2;
 }
 .center:hover{
@@ -50,8 +50,13 @@
 }
 .wrapper {
     display: block;
+    min-height: 190vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
-
+.padding-top {
+    padding-top: 6em;
+}
 #sidebar {
     min-width: 250px;
     max-width: 250px;
@@ -104,4 +109,121 @@
 
 .navbar-a {
     padding-top: 40px;
+}
+.sub-text{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: white;
+
+}
+.sub{
+    background-color: black;
+    margin-top: 2em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+    
+
+.abc {
+    color:white;
+    font-size: 52px;
+    margin-left: 14px;
+}
+.den{
+    font-size: 15px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 3%;
+}
+.form-control{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 8px;
+    max-width: 100%;
+    border-radius: 0px;
+}
+.short{
+    padding-left: 15px;
+    background-color: red;
+    max-width: 16%;
+    /* margin-left: 3%; */
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    padding-bottom: 4px;
+}
+.short:hover{
+    background-color: grey;
+}
+.cont{
+    background-color: white;
+    text-align:right;
+    padding-left: 40%;
+    
+}
+
+.text-cont{
+    color: black;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5%;
+}
+
+.last-col {
+    padding-top: 3em;
+    background-color: whitesmoke;
+}
+
+.input-box {
+    padding: 3px;
+    max-width: 100%;
+    margin-bottom: 12px;
+}
+
+.input-box::placeholder {
+    font-size: 13px;
+}
+
+.send-btn {
+    border: none;
+    /* padding: 12px; */
+    padding-bottom: 4px;
+    padding-top: 4px;
+    /* padding-right: 23px; */
+    width: 190px;
+    background: black;
+    color: white;
+}
+.colorr{
+    text-decoration: underline;
+    color: black;
+    text-decoration-color: black;
+}
+.footer {
+    background-color: black;
+}
+.w3 {
+    text-decoration: underline;
+    color: white;
+}
+.w3:hover {
+    color: grey;
+}
+
+
+.text-color {
+    color: white;
+}
+
+.nav-menu:hover {
+    background-color: whitesmoke;
+}
+
+
+
+a {
+    color: black;
+    font-size: 15px;
 }
